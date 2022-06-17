@@ -1,0 +1,55 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        headline: ["Libre Baskerville ", "cursive"],
+        logo: ["Pacifico", "cursive"],
+        sans: ["Poppins", "sans-serif"],
+      },
+      colors: {
+        primary: {
+          DEFAULT: "#F2994A",
+          50: "#FEFAF5",
+          100: "#FDEFE2",
+          200: "#FAD9BC",
+          300: "#F7C496",
+          400: "#F5AE70",
+          500: "#F2994A",
+          600: "#EE7C16",
+          700: "#BE610E",
+          800: "#8A460A",
+          900: "#552B06",
+        },
+        woodsmoke: {
+          DEFAULT: "#16171C",
+          50: "#676B83",
+          100: "#5E6277",
+          200: "#4C4F61",
+          300: "#3A3D4A",
+          400: "#282A33",
+          500: "#16171C",
+          600: "#000000",
+          700: "#000000",
+          800: "#000000",
+          900: "#000000",
+        },
+        "orange-light": {
+          DEFAULT: "#FFF5EC",
+          50: "#FFFFFF",
+          100: "#FFFFFF",
+          200: "#FFFFFF",
+          300: "#FFFFFF",
+          400: "#FFFFFF",
+          500: "#FFF5EC",
+          600: "#FFD7B4",
+          700: "#FFBA7C",
+          800: "#FF9C44",
+          900: "#FF7F0C",
+        },
+      },
+    },
+  },
+  plugins: [],
+};
