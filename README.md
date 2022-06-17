@@ -4,7 +4,7 @@ This is my slicing result, I get the UI from my best friend @hazar23 http://code
 
 
 ## DEMO APP
-<!-- https://paitcoffee.netlify.app -->
+https://jobsee.netlify.app/
 
 ![](https://management-profile.codelillah.com/storage/ui/additional/BJSYQaILTfIx9jQeOqQnbnoh33FMeCE3D1YeSQt9.png)
 
